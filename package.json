@@ -1,0 +1,36 @@
+{
+  "name": "cnb2api",
+  "version": "1.0.0",
+  "description": "Expose a CNB cloud-workspace in-network AI endpoint as an OpenAI-compatible API. Zero dependencies.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "cnb2api-quota": "bin/cnb2api-quota.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengyie/cnb2api.git"
+  },
+  "homepage": "https://github.com/dengyie/cnb2api#readme",
+  "bugs": {
+    "url": "https://github.com/dengyie/cnb2api/issues"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "quota": "node bin/cnb2api-quota.mjs",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "keywords": [
+    "openai",
+    "proxy",
+    "cnb",
+    "llm",
+    "api-gateway",
+    "sse",
+    "quota",
+    "cli"
+  ]
+}

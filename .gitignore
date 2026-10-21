@@ -1,0 +1,7 @@
+*.log
+node_modules/
+.DS_Store
+__pycache__/
+*.pyc
+models-state.json
+models-state.json.tmp
